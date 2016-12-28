@@ -1,5 +1,5 @@
 app.controller('MainController', ['$scope', function($scope) {
-  $scope.title = 'Top Sellers in Books';
+  $scope.title = 'This month/''s best sellers';
   $scope.promo = 'The most popular books this month.';
   $scope.products = [
   	{
