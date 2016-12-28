@@ -12,3 +12,6 @@ config(['$locationProvider', '$routeProvider', function($locationProvider, $rout
 
   $routeProvider.otherwise({redirectTo: '/view1'});
 }]);
+
+
+var app = angular.module("myApp", []);
